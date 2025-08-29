@@ -18,7 +18,7 @@ def start(message):
 @bot.callback_query_handler(func=lambda call: True)
 def callback(call):
     if call.game_short_name == "ilon":
-        bot.answer_callback_query(call.id, url="https://umidjon.github.io/Snake-game/")
+        bot.answer_callback_query(call.id, url="https://umidreels2025.github.io/Snake-game/")
 
 print("✅ Bot ishga tushdi...")
 bot.polling(non_stop=True)
